@@ -20,6 +20,11 @@ class MyApp extends StatelessWidget {
         create: (context) => CounterCubit(),
         child: MyHomePage(title: 'Flutter Demo Home Page'),
       ),
+      // routes: {
+      //   '/': (context) => MyHomePage(title: "First Screen"),  
+      //   '/second': (context) => SecondScreen(title: "Second Screen", color: Colors.red),
+      //   '/third': (context) => ThirdScreen(title: "Third Screen", color: Colors.green),
+      // },
     );
   }
 }
